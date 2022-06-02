@@ -1,0 +1,7 @@
+C:\Users\YohanMalshika\source\repos\BlazorAzureApp\obj\Release\net6.0\PubTmp\Out\BlazorAzureApp.exe
+C:\Users\YohanMalshika\source\repos\BlazorAzureApp\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\YohanMalshika\source\repos\BlazorAzureApp\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\YohanMalshika\source\repos\BlazorAzureApp\obj\Release\net6.0\PubTmp\Out\BlazorAzureApp.dll
+C:\Users\YohanMalshika\source\repos\BlazorAzureApp\obj\Release\net6.0\PubTmp\Out\BlazorAzureApp.deps.json
+C:\Users\YohanMalshika\source\repos\BlazorAzureApp\obj\Release\net6.0\PubTmp\Out\BlazorAzureApp.runtimeconfig.json
+C:\Users\YohanMalshika\source\repos\BlazorAzureApp\obj\Release\net6.0\PubTmp\Out\BlazorAzureApp.pdb
