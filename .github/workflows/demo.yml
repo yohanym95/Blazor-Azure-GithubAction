@@ -1,4 +1,4 @@
-name: Build and Deploy Blazor App
+name: Build and deploy Blazor App
 
 on:
   push:
@@ -16,7 +16,8 @@ jobs:
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '6.0.0'
+          dotnet-version: '6.0.x'
+          include-prerelease: true
 
       - name: Build with dotnet
         run: dotnet build --configuration Release
@@ -47,7 +48,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'yohandemo'
+          app-name: 'blazordemo-git'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: .
